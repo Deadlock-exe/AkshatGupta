@@ -296,12 +296,24 @@ body {
 
 /* Place the container to the left */
 .left {
+    position: relative;
+    left: -800px;
+}
+
+.left-transition{
+    transition: all 1s ease;
     left: 0;
+}
+
+.right-transition{
+    transition: all 1s ease;
+    right: -620px;
 }
 
 /* Place the container to the right */
 .right {
-    left: 50%;
+    position: relative;
+    right: -1400px;
 }
 
 /* Add arrows to the left container (pointing right) */
@@ -381,7 +393,10 @@ body {
     }
 }
 
-
+.display-none{
+    filter: blur(100px)!important;
+    transition: all 1s ease;
+}
 
 .skills{
     background-color: black;
@@ -389,6 +404,8 @@ body {
     color: white;
 }
 .skillsArea{
+    filter: blur(0px);
+    transition: all 1s ease;
     display: flex;
     align-items: center;
     justify-content: center;
