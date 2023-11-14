@@ -89,7 +89,7 @@ body {
 }
 @media screen and (min-width: 800px) {
     .navbar_everything{
-        margin: 4rem;
+        margin: 0rem !important;
     }
 }
 
