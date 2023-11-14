@@ -76,7 +76,6 @@ body {
     .nav1{
         width: 50% !important;
     }
-
 }
 
 .nav1 {
@@ -156,7 +155,7 @@ body {
         font-size: 4rem;
     }
     .upperHomeContent p{
-        font-size: 1rem;
+        font-size: 1.2rem !important;
     }
     .home{
         margin: 0 !important;
@@ -166,6 +165,11 @@ body {
         padding-bottom: 0 !important;
     }
 
+}
+@media screen and (max-width: 400px) {
+    .upperHomeContent h1{
+        font-size: 3rem !important;
+    }
 }
 
 
