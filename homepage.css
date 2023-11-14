@@ -89,7 +89,7 @@ body {
 }
 @media screen and (min-width: 800px) {
     .navbar_everything{
-        margin: 0rem !important;
+        margin: 0 3rem !important;
     }
 }
 
@@ -138,6 +138,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 80%;
+    padding-bottom: 10rem;
 }
 
 .upperHomeContent h1 {
@@ -157,6 +158,12 @@ body {
     .home{
         margin: 0 !important;
         padding: 2rem !important;
+    }
+    .upperHome{
+        padding-bottom: 0 !important;
+    }
+    .home{
+        height: 800px;
     }
 }
 
